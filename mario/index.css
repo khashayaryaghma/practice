@@ -5,9 +5,12 @@
 }
 body{
     background-color: lightblue;
+    text-align: center;
 }
 .wrapper{
     width: 100%;
     padding: 20px;
-
+}
+img{
+    height: 10rem;
 }
