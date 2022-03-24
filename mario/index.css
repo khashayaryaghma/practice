@@ -9,15 +9,15 @@
 }
 
 .sky{
-    height: 40%;
+    height: 40vh;
     background-color: skyblue;
 }
 .grass{
-    height: 30%;
+    height: 30vh;
     background-color: seagreen;
 }
 .road{
-    height: 30%;
+    height: 30vh;
     background-color: dimgray;
     border-top: 10px solid gray;
     border-bottom: 10px solid gray;
@@ -30,6 +30,12 @@
     position: absolute;
     top: 45%;
 }
+img{
+    height: 6.5rem;
+    position: absolute;
+    z-index: 1;
+    top: 1rem;
+}
 /* body{
     background-color: lightblue;
     text-align: center;
@@ -38,9 +44,7 @@
     width: 100%;
     padding: 20px;
 } */
-img{
-    height: 10rem;
-}
+
 /* .circle{
     width: 100px;
     padding: 50px 0;
