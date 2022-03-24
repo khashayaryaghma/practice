@@ -14,7 +14,21 @@
 }
 .grass{
     height: 30%;
-    background-color: green;
+    background-color: seagreen;
+}
+.road{
+    height: 30%;
+    background-color: dimgray;
+    border-top: 10px solid gray;
+    border-bottom: 10px solid gray;
+    width: 100%;
+}
+.lines{
+    border: 5px dashed #fff;
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    top: 45%;
 }
 /* body{
     background-color: lightblue;
