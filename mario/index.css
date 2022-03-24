@@ -23,4 +23,8 @@ img{
     color: aqua;
     border-radius: 50px;
     cursor: pointer;
+    transition: 1s;
+}
+.circle:hover{
+    background-color: darkblue;
 }
