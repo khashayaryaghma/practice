@@ -2,12 +2,25 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
-body{
+.grass , .sky , .road{
+    position: relative;
+}
+
+.sky{
+    height: 40%;
+    background-color: skyblue;
+}
+.grass{
+    height: 30%;
+    background-color: green;
+}
+/* body{
     background-color: lightblue;
     text-align: center;
-}
-.wrapper{
+} */
+/* .wrapper{
     width: 100%;
     padding: 20px;
 }
@@ -27,4 +40,4 @@ img{
 }
 .circle:hover{
     background-color: darkblue;
-}
+} */
