@@ -35,8 +35,14 @@
     position: absolute;
     z-index: 1;
     top: 1rem;
+    animation-name: drive;
+    animation-duration: 5s;
 }
 
+@keyframes drive{
+    from{transform: translateX(0);}
+    to{transform: translateX(100vw);}
+}
 
 
 
