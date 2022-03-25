@@ -37,6 +37,7 @@
     top: 1rem;
     animation-name: drive;
     animation-duration: 5s;
+    animation-fill-mode: both;
 }
 
 @keyframes drive{
