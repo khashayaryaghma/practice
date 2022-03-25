@@ -36,13 +36,13 @@
     z-index: 1;
     top: 1rem;
     animation-name: drive;
-    animation-duration: 5s;
-    animation-fill-mode: both;
-    animation-delay: 2s;
+    animation-duration: 8s;
+    /* animation-fill-mode: both; */
+    animation-iteration-count: 3;
 }
 
 @keyframes drive{
-    from{transform: translateX(0);}
+    from{transform: translateX(-100px);}
     to{transform: translateX(100vw);}
 }
 
