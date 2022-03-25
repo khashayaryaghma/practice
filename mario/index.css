@@ -40,6 +40,8 @@
     animation-fill-mode: both;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    animation: drive 7s both infinite linear, 
+                jump 0.3s 3.5s ease;
 }
 .carshadow{
     height: 3.4rem;
@@ -74,6 +76,11 @@
 @keyframes wind{
     from{left:-300px}
     to{left: 100%;}
+}
+@keyframes jump{
+    0%{top: 3.2rem;}
+    50%{top: 2rem;}
+    100%{top: 3.2rem;}
 }
 
 
