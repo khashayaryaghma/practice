@@ -54,6 +54,15 @@
 }
 .cloud{
     height: 9rem;
+    position: absolute;
+}
+.cloud:nth-child(1){
+    height: 6rem;
+    top: 120px;
+    opacity: 0.5;
+}
+.cloud:nth-child(2){
+    top: 0;
 }
 
 @keyframes drive{
