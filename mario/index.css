@@ -52,6 +52,9 @@
     animation-direction: normal;
     animation-timing-function: ease-in-out;
 }
+.cloud{
+    height: 9rem;
+}
 
 @keyframes drive{
     from{transform: translateX(-100px);}
