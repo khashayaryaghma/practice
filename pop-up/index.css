@@ -81,3 +81,17 @@ button {
     opacity: 1;
   }
 }
+@keyframes swing {
+  0% {
+    transform: translateY(500px) rotateZ(0deg);
+  }
+  40% {
+    transform: translateY(500px) rotateZ(90deg);
+  }
+  70% {
+    transform: translateY(500px) rotateZ(70deg);
+  }
+  100% {
+    transform: translateY(500px) rotateZ(75deg);
+  }
+}
