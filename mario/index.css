@@ -48,6 +48,7 @@
     animation-fill-mode: both;
     animation-duration: 9s;
     animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
 
 @keyframes drive{
