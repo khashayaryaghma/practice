@@ -53,7 +53,7 @@ h1{
   animation: flip 0.2s ease-in forwards;
 }
 .panels li:hover div.back{
-  animation: flip 0.2s ease-in forwards reverse;
+  animation: flip 0.2s 0.2s ease-out forwards reverse;
 }
 @keyframes flip {
   0%{transform: rotateY(0deg);}
