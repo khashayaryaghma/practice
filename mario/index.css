@@ -38,6 +38,7 @@
     animation-name: drive;
     animation-duration: 5s;
     animation-fill-mode: both;
+    animation-delay: 2s;
 }
 
 @keyframes drive{
