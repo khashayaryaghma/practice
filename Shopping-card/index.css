@@ -1,38 +1,41 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Calibri, sans-serif;
+  font-weight: normal;
+  color: #333;
 }
-header{
+header {
   padding: 10px 20px;
   border-bottom: 1px solid #eee;
   background: #fff;
 }
-header:after{
+header:after {
   display: block;
   content: "";
   clear: both;
 }
-.basket ul{
+.basket ul {
   padding: 0;
   margin-top: 40px;
 }
-.basket li{
+.basket li {
   display: inline-block;
   list-style-type: none;
   width: 30%;
   margin: 30px 1.5%;
   text-align: center;
 }
-.basket button{
+.basket button {
   border-radius: 10px;
   cursor: pointer;
 }
-.basket header div{
+.basket header div {
   float: right;
   position: relative;
   z-index: 1;
 }
-.basket header h1{
+.basket header h1 {
   float: left;
 }
