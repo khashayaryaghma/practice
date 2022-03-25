@@ -64,10 +64,13 @@ button {
 /*animation styles*/
 
 .pop-up{
-    top: -700px;
+    top: -400px;
+    
 }
 @keyframes drop {
-    
+    0%{}
+    70%{transform: translateY(700px)}
+    100%{transform: translateY(650px);}
 }
 
 
