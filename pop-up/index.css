@@ -23,6 +23,20 @@ p {
   margin: 0 auto;
   text-align: center;
 }
+.pop-up .container {
+  background: #f0e4d4;
+  padding: 30px;
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+.pop-up input {
+  padding: 10px;
+  border: 0;
+  border-radius: 10px 0 0 10px;
+  border: 1px solid #333;
+  font-size: 18px;
+}
 
 
 
