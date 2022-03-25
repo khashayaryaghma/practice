@@ -35,13 +35,13 @@
     position: absolute;
     z-index: 1;
     top: 3.2rem;
-    animation-name: drive;
+    /* animation-name: drive;
     animation-duration: 7s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-timing-function: linear; */
     animation: drive 7s both infinite linear, 
-                jump 0.3s 3.5s ease;
+                jump 0.3s 3.5s ease ;
 }
 .carshadow{
     height: 3.4rem;
@@ -65,7 +65,7 @@
     animation: wind 80s linear infinite reverse;
 }
 .cloud:nth-child(2){
-    top: 0;
+    top: 3px;
     animation: wind 50s linear infinite reverse;
 }
 
