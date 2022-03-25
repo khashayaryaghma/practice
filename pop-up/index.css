@@ -61,4 +61,13 @@ button {
   border-radius: 11px;
 }
 
+/*animation styles*/
+
+.pop-up{
+    top: -700px;
+}
+@keyframes drop {
+    
+}
+
 
