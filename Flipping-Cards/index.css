@@ -41,3 +41,11 @@ h1{
   line-height: 0;
   cursor: pointer;
 }
+
+/*َAnimation*/
+.panels div.back{
+  transform: rotateY(90deg);
+}
+@keyframes identifier {
+  
+}
