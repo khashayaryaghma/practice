@@ -34,9 +34,9 @@
     height: 6.5rem;
     position: absolute;
     z-index: 1;
-    top: 1rem;
+    top: 0.5rem;
     animation-name: drive;
-    animation-duration: 8s;
+    animation-duration: 7s;
     /* animation-fill-mode: both; */
     animation-iteration-count: infinite;
 }
