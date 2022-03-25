@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.grass , .sky , .road{
+    position: relative;
+}
+
+.sky{
+    height: 40vh;
+    background-color: skyblue;
+}
+.grass{
+    height: 30vh;
+    background-color: seagreen;
+}
+.road{
+    height: 30vh;
+    background-color: dimgray;
+    border-top: 10px solid gray;
+    border-bottom: 10px solid gray;
+    width: 100%;
+}
+.lines{
+    border: 5px dashed #fff;
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    top: 45%;
+}
+.monkey{
+    height: 6.5rem;
+    position: absolute;
+    z-index: 1;
+    top: 3.2rem;
+    /* animation-name: drive;
+    animation-duration: 7s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; */
+    animation: drive 7s both infinite linear, 
+                jump 0.3s 3.5s ease ;
+}
+.carshadow{
+    height: 3.4rem;
+    position: absolute;
+    top: 10px;
+    animation-name: drive;
+    animation-fill-mode: both;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+}
+.cloud{
+    height: 9rem;
+    position: absolute;
+}
+.cloud:nth-child(1){
+    height: 6rem;
+    top: 120px;
+    opacity: 0.5;
+    animation: wind 80s linear infinite reverse;
+}
+.cloud:nth-child(2){
+    top: 3px;
+    animation: wind 50s linear infinite reverse;
+}
+
+@keyframes drive{
+    from{transform: translateX(-100px);}
+    to{transform: translateX(100vw);}
+}
+@keyframes wind{
+    from{left:-300px}
+    to{left: 100%;}
+}
+@keyframes jump{
+    0%{top: 3.2rem;}
+    50%{top: 2rem;}
+    100%{top: 3.2rem;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    background-color: lightblue;
+    text-align: center;
+} */
+/* .wrapper{
+    width: 100%;
+    padding: 20px;
+} */
+
+/* .circle{
+    width: 100px;
+    padding: 50px 0;
+    margin: 60px auto;
+    line-height: 0;
+    background-color: blueviolet;
+    color: aqua;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+}
+.circle:hover{
+    background-color: darkblue;
+} */
