@@ -34,21 +34,23 @@
     height: 6.5rem;
     position: absolute;
     z-index: 1;
-    top: 2.5rem;
+    top: 3.2rem;
     animation-name: drive;
     animation-duration: 7s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 .carshadow{
     height: 3.4rem;
     position: absolute;
-    top: 3px;
+    top: 10px;
     animation-name: drive;
     animation-fill-mode: both;
     animation-duration: 9s;
     animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
+    animation-direction: normal;
+    animation-timing-function: linear;
 }
 
 @keyframes drive{
