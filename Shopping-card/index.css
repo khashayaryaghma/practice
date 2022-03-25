@@ -11,6 +11,21 @@ header {
   border-bottom: 1px solid #eee;
   background: #fff;
 }
+h1{
+  font-size: 48px;
+  margin: 10px 0;
+}
+button{
+  padding: 10px;
+  border: 0;
+  color: #fff;
+  background: #333;
+  margin-left: -5px;
+  margin-left: -5px;
+  border-radius: 0 10px 10px 0;
+  border: 1px solid #333;
+  font-size: 18px;
+}
 header:after {
   display: block;
   content: "";
