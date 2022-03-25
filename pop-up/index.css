@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Calibri, sans-serif;
+  font-weight: normal;
+  color: #333;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+}
+h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+p {
+  margin-bottom: 40px;
+}
+.pop-up {
+  position: relative;
+  top: 200px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
