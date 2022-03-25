@@ -57,3 +57,14 @@ header:after {
 li img{
     width: 150px;
 }
+
+
+/*Animation*/
+
+.zoom{
+    position: absolute;
+    top: 3rem;
+    left: 50%;
+    width: 3rem;
+}
+
