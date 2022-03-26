@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+body {
+  background-color: darkslategrey;
+}
+.neon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) skewY(-5deg);
+  border: solid 4px #fff;
+  padding: 20px 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #1eff4e, 0 0 30px #1eff4e, inset 0 0 10px #1eff4e,
+    0 0 30px #1eff4e;
+  animation: animate 0.1s linear infinite;
+}
+.neon::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+    z-index: -1;
+    width: 100%;
+    height: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #1eff4e, 0 0 30px #1eff4e;
+}
+.neon::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 120px;
+    z-index: -1;
+    width: 100%;
+    height: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #1eff4e, 0 0 30px #1eff4e;
+}
+h1{
+    font-size: 12rem;
+    color: #fff;
+    text-shadow: 0 0 10px #1eff4e, 0 0 20px #1eff4e
+    , 0 0 80px #1eff4e, 0 0 120px #1eff4e;
+}
+h1 span{
+    animation: animate .5s linear infinite;
+}
+h1 span:nth-child(1){
+    animation-delay: .25s;
+}
+h1 span:nth-child(2){
+    animation-delay: .2s;
+}
+h1 span:nth-child(3){
+    animation-delay: .35s;
+}
+h1 span:nth-child(4){
+    animation-delay: .4s;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
