@@ -20,6 +20,28 @@ body {
     0 0 30px #1eff4e;
   animation: animate 0.1s linear infinite;
 }
+.neon::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+    z-index: -1;
+    width: 100%;
+    height: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #1eff4e, 0 0 30px #1eff4e;
+}
+.neon::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 120px;
+    z-index: -1;
+    width: 100%;
+    height: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #1eff4e, 0 0 30px #1eff4e;
+}
 h1{
     font-size: 12rem;
     color: #fff;
