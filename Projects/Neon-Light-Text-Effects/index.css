@@ -21,10 +21,13 @@ body {
   animation: animate 0.1s linear infinite;
 }
 h1{
-    font-size: 9rem;
+    font-size: 12rem;
     color: #fff;
     text-shadow: 0 0 10px #1eff4e, 0 0 20px #1eff4e
     , 0 0 80px #1eff4e, 0 0 120px #1eff4e;
+}
+h1 span{
+    animation: animate .5 linear infinite;
 }
 @keyframes animate {
   0% {
