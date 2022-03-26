@@ -20,6 +20,10 @@ body {
     0 0 30px #1eff4e;
   animation: animate 0.1s linear infinite;
 }
+h1{
+    font-size: 9rem;
+    color: #fff;
+}
 @keyframes animate {
   0% {
     opacity: 1;
