@@ -74,3 +74,6 @@ section::before{
     font-weight: 700;
     font-size: 50px;
 }
+.percent .number h2 span{
+    font-size: 24px;
+}
