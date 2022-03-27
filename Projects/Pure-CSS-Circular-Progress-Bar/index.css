@@ -22,3 +22,9 @@ section::before{
     height: 50px;
     background-color: #bd00ff;
 }
+.container{
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
