@@ -35,3 +35,9 @@ i:hover{
     color: #0f0;
     text-shadow: 0 0 120px #0f0;
 }
+section .row div{
+    animation: animate 80s linear infinite;
+}
+@keyframes animate {
+    
+}
