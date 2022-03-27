@@ -38,6 +38,14 @@ i:hover{
 section .row div{
     animation: animate 80s linear infinite;
 }
+section .row div:nth-child(2){
+
+}
 @keyframes animate {
-    
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
 }
