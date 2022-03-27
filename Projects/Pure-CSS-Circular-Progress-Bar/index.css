@@ -53,7 +53,7 @@ section::before{
     border-radius: 10px
 }
 .percent{
-    position: absolute;
+    position: relative;
     width: 150px;
     height: 150px;
     border-radius: 50%;
