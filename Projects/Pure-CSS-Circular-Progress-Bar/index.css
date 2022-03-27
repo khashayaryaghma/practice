@@ -52,3 +52,10 @@ section::before{
     z-index: 10;
     border-radius: 10px
 }
+.percent{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    z-index: 20;
+}
