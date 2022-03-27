@@ -120,6 +120,11 @@ section::before{
 
 
 
-circle{
-    display: none;
+svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+svg circle{
+    
 }
