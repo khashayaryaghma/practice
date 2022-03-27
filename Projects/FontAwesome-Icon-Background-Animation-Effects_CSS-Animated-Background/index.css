@@ -12,6 +12,11 @@ section{
     flex-direction: column;
     overflow: hidden;
 }
+section .row{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
 i{
     color: #fff;
 }
