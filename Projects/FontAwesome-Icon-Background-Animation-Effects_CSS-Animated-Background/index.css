@@ -21,5 +21,9 @@ section .row{
     font-size: 64px;
 }
 i{
-    color: #fff;
+    color: rgba(0, 0, 0, 0.5);
+}
+i:hover{
+    color: #0f0;
+    text-shadow: 0 0 120px #0f0;
 }
