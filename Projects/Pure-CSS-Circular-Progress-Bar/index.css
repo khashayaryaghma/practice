@@ -96,13 +96,30 @@ section::before{
     font-weight: 800;
     color: #fff;
     transition: bottom 0.5s , z-index 0s , transform 0.5s, padding 0.5s;
+    transition-delay: 0.5s,0.5s,0s,0.5s;
+    color: #fff;
 }
 .card:hover .text{
+    transition-delay: 0s, 0.5s,0.5s,0s;
     bottom: -70px;
     z-index: 11;
     transform: translate(-50% ,-50px);
-    padding: 30px 20px 10px;
+    padding: 10px 20px 10px;
 }
+.card:nth-child(1) .text{
+    background-color: #ff0461;
+}
+.card:nth-child(2) .text{
+    background-color: #2bd2ff;
+}
+.card:nth-child(3) .text{
+    background-color: #18d539;
+}
+
+
+
+
+
 circle{
     display: none;
 }
