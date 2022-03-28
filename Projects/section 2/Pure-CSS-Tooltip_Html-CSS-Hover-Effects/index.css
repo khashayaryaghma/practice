@@ -15,3 +15,14 @@ body{
 ul{
     display: flex;
 }
+ul li{
+    position: relative;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background-color: #777;
+    margin: 0 20px;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
