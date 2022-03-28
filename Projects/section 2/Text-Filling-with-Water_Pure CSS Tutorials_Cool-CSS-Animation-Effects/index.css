@@ -21,4 +21,5 @@ body{
     background-repeat: repeat-x;
     background-position: bottom;
     -webkit-background-clip: text;
+    animation: animate 15s linear infinite;
 }
