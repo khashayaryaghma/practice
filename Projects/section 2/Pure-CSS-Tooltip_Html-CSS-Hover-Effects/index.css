@@ -42,6 +42,17 @@ ul li .content{
     transition: 0.5s;
     transform: translate(-50%, -50px);
 }
+ul li .content::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    bottom: -15px;
+    left: 194px;
+    transform: rotate(45deg);
+    z-index: -1;
+}
 ul li:hover .content{
     visibility: visible;
     opacity: 1;
