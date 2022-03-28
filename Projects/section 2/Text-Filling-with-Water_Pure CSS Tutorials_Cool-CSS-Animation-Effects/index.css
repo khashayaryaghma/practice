@@ -17,4 +17,8 @@ body{
     text-transform: uppercase;
     font-size: 10em;
     color: rgba(255, 255, 255, 0.1);
+    background-image: url(liquidWater.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    -webkit-background-clip: text;
 }
