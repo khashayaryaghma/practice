@@ -3,3 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #042104;
+}
