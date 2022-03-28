@@ -26,3 +26,7 @@ ul li{
     transition: 0.5s;
     cursor: pointer;
 }
+ul li:hover{
+    background-color: #86ff3b;
+    box-shadow: 0 0 0 4px #333, 0 0 0 6px #86ff3b;
+}
