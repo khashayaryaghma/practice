@@ -36,4 +36,12 @@ ul li .content{
     width: 400px;
     background-color: #fff;
     padding: 20px;
+    border-radius: 4px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+ul li:hover .content{
+    visibility: visible;
+    opacity: 1;
 }
