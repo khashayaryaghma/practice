@@ -17,10 +17,12 @@ body{
     text-transform: uppercase;
     font-size: 10em;
     color: rgba(255, 255, 255, 0.1);
-    background-image: url(liquidWater.png);
+    background-image: url(iceWaterMid.png);
     background-repeat: repeat-x;
+    /* background-size: auto 230px; */
     -webkit-background-clip: text;
     animation: animate 24s linear infinite;
+
 }
 @keyframes animate {
     0%{
