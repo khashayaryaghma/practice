@@ -15,3 +15,10 @@ section .loader{
     width: 120px;
     height: 120px;
 }
+section .loader span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
