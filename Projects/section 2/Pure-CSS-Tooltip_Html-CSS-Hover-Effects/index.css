@@ -40,8 +40,10 @@ ul li .content{
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
+    transform: translate(-50%, -50px);
 }
 ul li:hover .content{
     visibility: visible;
     opacity: 1;
+    transform: translate(-50%, 0px);
 }
