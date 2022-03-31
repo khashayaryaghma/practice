@@ -6,6 +6,6 @@ function buildStyles() {
         .pipe(sass())
         .pipe(dest("css"))
 }
-functionwatchTask(){
+function watchTask() {
     watch(["index.scss"], buildStyles)
 }
