@@ -28,6 +28,6 @@ function createlist() {
 
         listItem.setAttribute("data-index", index)
 
-        listItem.innerHTML = `<span class = "number"></span>`
+        listItem.innerHTML = `<span class = "number">${index + 1}</span> <div class="dragable" draggable="true"><p class="person-name">${person}</p></div> `
     })
 }
