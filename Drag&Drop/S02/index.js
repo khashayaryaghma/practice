@@ -24,6 +24,10 @@ createList();
 // Insert list items into DOM
 function createlist() {
     [...richestPeople].map((person, index)=>{
-        
+        const listItem =document.createElement("li")
+
+        listItem.setAttribute("data-index", index)
+
+        listItem.innerHTML = `<span class = "number"></span>`
     })
 }
