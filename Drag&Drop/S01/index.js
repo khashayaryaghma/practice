@@ -6,3 +6,10 @@ fill.addEventListener("dragstart", dragStart);
 fill.addEventListener("dragend", dragEnd);
 
 // Drag Functions
+function dragStart() {
+    
+}
+
+function dragEnd() {
+    
+}
