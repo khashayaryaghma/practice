@@ -5,6 +5,15 @@ const empties = document.querySelectorAll(".empty");
 fill.addEventListener("dragstart", dragStart);
 fill.addEventListener("dragend", dragEnd);
 
+// Loop through empties and call drag events
+for (const empty of empties) {
+    empty.addEventListener("dragover", dragOver);
+    empty.addEventListener("dragenter", dragEnter);
+    empty.addEventListener("dragover", dragLeave);
+    empty.addEventListener("dragover", dragDrop);
+}
+
+
 // Drag Functions
 function dragStart() {
   this.classList.add("hold");
