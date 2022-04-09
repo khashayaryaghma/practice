@@ -23,17 +23,20 @@ createList();
 
 // Insert list items into DOM
 function createList() {
-  [...richestPeople].map((person, index) => {
-    const listItem = document.createElement("li");
+  [...richestPeople]
+    .map((a) => ({ value: a, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map((person, index) => {
+      const listItem = document.createElement("li");
 
-    listItem.setAttribute("data-index", index);
+      listItem.setAttribute("data-index", index);
 
-    listItem.innerHTML = `<span class = "number">${
-      index + 1
-    }</span> <div class="dragable" draggable="true"><p class="person-name">${person}</p> <i class="fas fa-grip-lines"></i></div> `;
+      listItem.innerHTML = `<span class = "number">${
+        index + 1
+      }</span> <div class="dragable" draggable="true"><p class="person-name">${person}</p> <i class="fas fa-grip-lines"></i></div> `;
 
-    listItems.push(listItem);
+      listItems.push(listItem);
 
-    draggable_list.appendChild(listItem)
-  });
+      draggable_list.appendChild(listItem);
+    });
 }
