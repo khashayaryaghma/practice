@@ -7,10 +7,10 @@ fill.addEventListener("dragend", dragEnd);
 
 // Loop through empties and call drag events
 for (const empty of empties) {
-    empty.addEventListener("dragover", dragOver);
-    empty.addEventListener("dragenter", dragEnter);
-    empty.addEventListener("dragleave", dragLeave);
-    empty.addEventListener("dragdrop", dragDrop);
+  empty.addEventListener("dragover", dragOver);
+  empty.addEventListener("dragenter", dragEnter);
+  empty.addEventListener("dragleave", dragLeave);
+  empty.addEventListener("dragdrop", dragDrop);
 }
 
 // Drag Functions
@@ -27,19 +27,12 @@ function dragEnd() {
   this.classList.add("fill");
 }
 
-function dragOver() {
-    
+function dragOver(e) {
+    e.preventDefault();
 }
 
-function dragEnter() {
+function dragEnter() {}
 
-}
+function dragLeave() {}
 
-function dragLeave() {
-
-}
-
-function dragDrop() {
-
-}
-
+function dragDrop() {}
