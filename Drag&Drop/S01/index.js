@@ -10,7 +10,7 @@ for (const empty of empties) {
   empty.addEventListener("dragover", dragOver);
   empty.addEventListener("dragenter", dragEnter);
   empty.addEventListener("dragleave", dragLeave);
-  empty.addEventListener("dragdrop", dragDrop);
+  empty.addEventListener("drop", Drop);
 }
 
 // Drag Functions
@@ -40,4 +40,7 @@ function dragLeave() {
   this.className = "empty";
 }
 
-function dragDrop() {}
+function Drop() {
+    this.className = "empty"
+    this.append(fill)
+}
