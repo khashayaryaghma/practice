@@ -28,11 +28,16 @@ function dragEnd() {
 }
 
 function dragOver(e) {
-    e.preventDefault();
+  e.preventDefault();
 }
 
-function dragEnter() {}
+function dragEnter(e) {
+  e.preventDefault();
+  this.classList.add("hovered");
+}
 
-function dragLeave() {}
+function dragLeave() {
+  this.className = "empty";
+}
 
 function dragDrop() {}
