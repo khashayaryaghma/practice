@@ -23,5 +23,7 @@ createList();
 
 // Insert list items into DOM
 function createlist() {
-    
+    [...richestPeople].map((person, index)=>{
+        
+    })
 }
