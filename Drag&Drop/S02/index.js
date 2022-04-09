@@ -13,3 +13,15 @@ const richestPeople = [
   "Michel Bloomberg",
   "Larry Page",
 ];
+
+// Store listitems
+const listItems = [];
+
+let dragStartIndex;
+
+createList();
+
+// Insert list items into DOM
+function createlist() {
+    
+}
