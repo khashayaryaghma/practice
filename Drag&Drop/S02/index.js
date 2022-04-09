@@ -22,7 +22,7 @@ let dragStartIndex;
 createList();
 
 // Insert list items into DOM
-function createlist() {
+function createList() {
   [...richestPeople].map((person, index) => {
     const listItem = document.createElement("li");
 
