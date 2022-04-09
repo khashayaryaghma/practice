@@ -14,4 +14,7 @@ body{
     display: inline-block;
     height: 160px;
     width: 160px;
+    margin: 10px;
+    border: 3px salmon solid;
+    background-color: #fff;
 }
