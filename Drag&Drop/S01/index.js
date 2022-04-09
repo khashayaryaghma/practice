@@ -41,6 +41,6 @@ function dragLeave() {
 }
 
 function Drop() {
-    this.className = "empty"
-    this.append(fill)
+  this.className = "empty";
+  this.append(fill);
 }
