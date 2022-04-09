@@ -7,7 +7,7 @@ fill.addEventListener("dragend", dragEnd);
 
 // Drag Functions
 function dragStart() {
-    
+    this.classList.add("hold")
 }
 
 function dragEnd() {
