@@ -32,6 +32,8 @@ function createlist() {
       index + 1
     }</span> <div class="dragable" draggable="true"><p class="person-name">${person}</p> <i class="fas fa-grip-lines"></i></div> `;
 
-    listItems.push(listItem)
+    listItems.push(listItem);
+
+    draggable_list.appendChild(listItem)
   });
 }
