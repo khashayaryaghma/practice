@@ -44,6 +44,7 @@ function createList() {
     addEventListener()
 }
 
-function addEventListener({
-  
-})
+function addEventListener(){
+  const draggables = document.querySelectorAll(".draggable");
+  const dragListItems = document.querySelectorAll(".draggable-list li");
+}
