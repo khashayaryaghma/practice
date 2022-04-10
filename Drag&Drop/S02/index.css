@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-weight: bold;
 }
 :root {
   --border-color: #e3e5e4;
