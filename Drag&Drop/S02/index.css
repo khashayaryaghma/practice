@@ -76,3 +76,6 @@ body {
 .check-btn:focus {
   outline: none;
 }
+h1 , h1 + p{
+    padding: 1rem;
+}
