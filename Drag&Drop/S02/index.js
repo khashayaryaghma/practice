@@ -41,7 +41,23 @@ function createList() {
       draggable_list.appendChild(listItem);
     });
 
-  addEventListeners();
+  events();
+}
+
+function events() {
+  const draggables = document.querySelectorAll(".draggable");
+  const dragListItems = document.querySelectorAll(".draggable-list li");
+
+  draggables.forEach((draggable) => {
+    draggable.addEventListener("dragstart", dragStart);
+  });
+
+  dragListItems.forEach((item) => {
+    item.addEventListener("dragover", dragOver);
+    item.addEventListener("drop", drop);
+    item.addEventListener("dragenter", dragEnter);
+    item.addEventListener("dragleave", dragLeave);
+  });
 }
 
 function dragStart() {
@@ -72,22 +88,6 @@ function swapItems(fromIndex, toIndex) {
 
   listItems[fromIndex].appendChild(itemTwo);
   listItems[toIndex].appendChild(itemOne);
-}
-
-function addEventListeners() {
-  const draggables = document.querySelectorAll(".draggable");
-  const dragListItems = document.querySelectorAll(".draggable-list li");
-
-  draggables.forEach((draggable) => {
-    draggable.addEventListener("dragstart", dragStart);
-  });
-
-  dragListItems.forEach((item) => {
-    item.addEventListener("dragover", dragOver);
-    item.addEventListener("drop", drop);
-    item.addEventListener("dragenter", dragEnter);
-    item.addEventListener("dragleave", dragLeave);
-  });
 }
 
 check.addEventListener("click",checkOrder);
