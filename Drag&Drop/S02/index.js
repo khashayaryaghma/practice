@@ -26,7 +26,7 @@ function createList() {
   [...richestPeople]
     .map((a) => ({ value: a, sort: Math.random() }))
     .sort((a, b) => a.sort - b.sort)
-    .map(a=> a.value)
+    .map((a) => a.value)
     .map((person, index) => {
       const listItem = document.createElement("li");
 
@@ -41,10 +41,14 @@ function createList() {
       draggable_list.appendChild(listItem);
     });
 
-    addEventListener()
+  addEventListener();
 }
 
-function addEventListener(){
+function addEventListener() {
   const draggables = document.querySelectorAll(".draggable");
   const dragListItems = document.querySelectorAll(".draggable-list li");
+
+  draggables.map((draggable) => {
+    draggable.addEventListener("dragstart", dragStart);
+  });
 }
