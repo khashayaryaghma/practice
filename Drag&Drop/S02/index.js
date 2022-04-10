@@ -32,9 +32,9 @@ function createList() {
 
       listItem.setAttribute("data-index", index);
 
-      listItem.innerHTML = `<span class = "number">${
+      listItem.innerHTML = `<span class="number">${
         index + 1
-      }</span> <div class="draggable" draggable="true"><p class="person-name">${person}</p> <i class="fas fa-grip-lines"></i></div> `;
+      }</span> <div class="draggable" draggable="true"><p class="person-name">${person}</p> <i class="fas fa-grip-lines"></i></div>`;
 
       listItems.push(listItem);
 
@@ -80,4 +80,7 @@ function drop() {
 function swapItems(fromIndex, toIndex) {
   const itemOne = listItems[fromIndex].querySelector(".draggable");
   const itemTwo = listItems[toIndex].querySelector(".draggable");
+
+  listItems[fromIndex].appendChild(itemTwo);
+  listItems[toIndex].appendChild(itemOne);
 }
