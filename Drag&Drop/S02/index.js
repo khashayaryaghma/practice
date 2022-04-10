@@ -41,10 +41,10 @@ function createList() {
       draggable_list.appendChild(listItem);
     });
 
-  addEventListener();
+  events();
 }
 
-function addEventListener() {
+function events() {
   const draggables = document.querySelectorAll(".draggable");
   const dragListItems = document.querySelectorAll(".draggable-list li");
 
@@ -59,3 +59,4 @@ function addEventListener() {
     item.addEventListener("dragleave", dragLeave);
   });
 }
+
