@@ -46,7 +46,6 @@ function createList() {
 
 function dragStart() {
   dragStartIndex = +this.closest("li").getAttribute("data-index");
-  console.log("hi");
 }
 
 function dragEnter() {
