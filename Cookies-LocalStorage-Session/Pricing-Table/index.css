@@ -30,3 +30,10 @@
     color: #fff;
     text-align: center;
 }
+.price-col p{
+    font-size: 22px;
+}
+.price-col h3{
+    font-size: 44px;
+    margin: 20px 40px;
+}
