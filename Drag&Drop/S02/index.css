@@ -40,3 +40,6 @@ body {
   height: 60px;
   width: 60px;
 }
+.draggable-list .person-name{
+    margin: 0 20px 0 0;
+}
