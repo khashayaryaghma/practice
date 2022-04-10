@@ -67,6 +67,7 @@ body {
   font-size: 16px;
   padding: 10px 20px;
   cursor: pointer;
+  margin-top: 1rem;
 }
 .check-btn:active {
   transform: scale(0.98);
