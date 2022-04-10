@@ -74,7 +74,6 @@ function swapItems(fromIndex, toIndex) {
   listItems[toIndex].appendChild(itemOne);
 }
 
-
 function addEventListeners() {
   const draggables = document.querySelectorAll(".draggable");
   const dragListItems = document.querySelectorAll(".draggable-list li");
@@ -90,5 +89,3 @@ function addEventListeners() {
     item.addEventListener("dragleave", dragLeave);
   });
 }
-
-
