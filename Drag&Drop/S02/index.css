@@ -8,6 +8,7 @@
 :root {
   --border-color: #e3e5e4;
   --background-color: #c3c7ca;
+  --text-color: #34444f;
 }
 body {
   background-color: #fff;
@@ -17,7 +18,7 @@ body {
   justify-content: flex-start;
   height: 100vh;
 }
-.draggable-list{
-    border: 1px solid var(--background-color);
-    color: #34444f
+.draggable-list {
+  border: 1px solid var(--background-color);
+  color: var(--text-color);
 }
