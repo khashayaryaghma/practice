@@ -53,10 +53,25 @@ function events() {
   });
 
   dragListItems.map((item) => {
-    item.addEventListener("dragover", dragStart);
+    item.addEventListener("dragover", dragOver);
     item.addEventListener("drop", drop);
     item.addEventListener("dragenter", dragEnter);
     item.addEventListener("dragleave", dragLeave);
   });
 }
 
+function dragStart(){
+
+}
+function dragEnter() {
+
+}
+function dragLeave() {
+
+}
+function dragOver() {
+
+}
+function drop() {
+
+}
