@@ -60,18 +60,18 @@ function events() {
   });
 }
 
-function dragStart(){
-
+function dragStart() {
+  dragStartIndex = +this.closest("li").getAttribute("data-index");
 }
 function dragEnter() {
-
+  this.classList.add("over");
 }
 function dragLeave() {
-
+  this.classList.remove("over");
 }
-function dragOver() {
-
-}
+function dragOver() {}
 function drop() {
-
+  const dragEndIndex = +this.getAttribute("data-index");
+  swapItems(dragStartIndex, dragEndIndex);
+  this.classList.remove("over");
 }
