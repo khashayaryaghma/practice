@@ -40,4 +40,10 @@ function createList() {
 
       draggable_list.appendChild(listItem);
     });
+
+    addEventListener()
 }
+
+function addEventListener({
+  
+})
