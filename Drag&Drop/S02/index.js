@@ -69,9 +69,15 @@ function dragEnter() {
 function dragLeave() {
   this.classList.remove("over");
 }
-function dragOver() {}
+function dragOver(e) {
+  e.preventDefault();
+}
 function drop() {
   const dragEndIndex = +this.getAttribute("data-index");
   swapItems(dragStartIndex, dragEndIndex);
   this.classList.remove("over");
+}
+function swapItems(fromIndex, toIndex) {
+  const itemOne = listItems[fromIndex].querySelector(".draggable");
+  const itemTwo = listItems[toIndex].querySelector(".draggable");
 }
