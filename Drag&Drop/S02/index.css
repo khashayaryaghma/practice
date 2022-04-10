@@ -17,3 +17,7 @@ body {
   justify-content: flex-start;
   height: 100vh;
 }
+.draggable-list{
+    border: 1px solid var(--background-color);
+    color: #34444f
+}
