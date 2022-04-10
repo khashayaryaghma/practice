@@ -51,4 +51,11 @@ function addEventListener() {
   draggables.map((draggable) => {
     draggable.addEventListener("dragstart", dragStart);
   });
+
+  dragListItems.map((item) => {
+    item.addEventListener("dragover", dragStart);
+    item.addEventListener("drop", drop);
+    item.addEventListener("dragenter", dragEnter);
+    item.addEventListener("dragleave", dragLeave);
+  });
 }
