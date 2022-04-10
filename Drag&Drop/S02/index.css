@@ -21,4 +21,5 @@ body {
 .draggable-list {
   border: 1px solid var(--background-color);
   color: var(--text-color);
+  list-style-type: none;
 }
