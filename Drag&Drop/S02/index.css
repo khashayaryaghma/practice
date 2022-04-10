@@ -28,3 +28,6 @@ body {
     display: flex;
     flex: 1;
 }
+.draggable-list li:not(:last-of-type){
+    border-bottom: 1px solid var(--border-color);
+}
