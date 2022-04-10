@@ -23,3 +23,8 @@ body {
   color: var(--text-color);
   list-style-type: none;
 }
+.draggable-list li{
+    background-color: #fff;
+    display: flex;
+    flex: 1;
+}
