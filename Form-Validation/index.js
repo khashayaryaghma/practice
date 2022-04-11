@@ -35,6 +35,6 @@ function validatePhone() {
     phoneError.innerHTML = "only digits please";
     return false;
   }
-    phoneError.innerHTML = '<i class="fas fa-check-circle"></i>';
-    return true;  
+  phoneError.innerHTML = '<i class="fas fa-check-circle"></i>';
+  return true;
 }
