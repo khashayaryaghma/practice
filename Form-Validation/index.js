@@ -23,7 +23,7 @@ function validateName() {
 function validatePhone() {
   let phone = document.getElementById("contact-phone").value;
 
-  if (phone.length !== 10) {
+  if (phone.length === 0) {
     phoneError.innerHTML = "phone no is required";
     return false;
   }
@@ -31,4 +31,10 @@ function validatePhone() {
     phoneError.innerHTML = "phone no is should be 10 digits";
     return false;
   }
+  if (phone.match(/^[0-9]{10}$/)) {
+    phoneError.innerHTML = "only digits please";
+    return false;
+  }
+    phoneError.innerHTML = '<i class="fas fa-check-circle"></i>';
+    return true;  
 }
