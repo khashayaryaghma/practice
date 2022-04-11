@@ -3,6 +3,7 @@ const phoneError = document.getElementById("phone-error");
 const emailError = document.getElementById("email-error");
 const messageError = document.getElementById("message-error");
 const submitError = document.getElementById("submit-error");
+const button = document.querySelector("button")
 
 function validateName() {
   let name = document.getElementById("contact-name").value;
@@ -64,6 +65,8 @@ function validateMessage(){
   messageError.innerHTML = '<i class="fas fa-check-circle"></i>';
   return true;
 }
+
+button.onclick = validateForm
 
 function validateForm(){
   if(!validateName() || !validatePhone() || !validateEmail() || !validateMessage()){
