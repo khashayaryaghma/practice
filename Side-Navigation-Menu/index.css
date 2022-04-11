@@ -92,4 +92,17 @@
     .logo-icon{
         display: block;
     }
+    .logo-img{
+        display: none;
+    }
+    .nav-links li a p{
+        display: none;
+    }
+    .nav-links li a i{
+        margin-right: 0;
+    }
+    .nav-links li a{
+        justify-content: center;
+    }
+    
 }
