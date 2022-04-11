@@ -38,3 +38,15 @@ function validatePhone() {
   phoneError.innerHTML = '<i class="fas fa-check-circle"></i>';
   return true;
 }
+
+function validateEmail(){
+    let email = document.getElementById("contact-email").value;
+
+    if (email.length === 0) {
+        emailError.innerHTML = "email is required";
+    }
+    if(!email.match(/^[A-Za-z]\._\-[0-9]*[@][A-Za-z]$/)){
+
+    }
+
+}
