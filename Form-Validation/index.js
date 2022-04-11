@@ -52,3 +52,7 @@ function validateEmail() {
   emailError.innerHTML = '<i class="fas fa-check-circle"></i>';
   return true;
 }
+function validateMessage(){
+  let message = document.getElementById("contact-message").value;
+  
+}
