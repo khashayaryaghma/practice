@@ -31,7 +31,7 @@ function validatePhone() {
     phoneError.innerHTML = "phone no is should be 10 digits";
     return false;
   }
-  if (phone.match(/^[0-9]{10}$/)) {
+  if (!phone.match(/^[0-9]{10}$/)) {
     phoneError.innerHTML = "only digits please";
     return false;
   }
