@@ -22,3 +22,10 @@
     display: block;
     margin-bottom: 130px;
 }
+.logo-img{
+    width: 150px;
+}
+.nav-links{
+    list-style: none;
+    position: relative;
+}
