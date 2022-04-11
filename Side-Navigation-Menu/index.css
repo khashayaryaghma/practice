@@ -29,3 +29,6 @@
     list-style: none;
     position: relative;
 }
+.nav-links li{
+    padding: 10px 0;
+}
