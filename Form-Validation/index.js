@@ -11,10 +11,24 @@ function validateName() {
     nameError.innerHTML = "name is required";
     return false;
   }
-  if (!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)) { // something was wrong
+  if (!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)) {
+    // something was wrong
     nameError.innerHTML = "Write full name";
     return false;
   }
   nameError.innerHTML = '<i class="fas fa-check-circle"></i>';
   return true;
+}
+
+function validatePhone() {
+  let phone = document.getElementById("contact-phone").value;
+
+  if (phone.length !== 10) {
+    phoneError.innerHTML = "phone no is required";
+    return false;
+  }
+  if (phone.length !== 10) {
+    phoneError.innerHTML = "phone no is should be 10 digits";
+    return false;
+  }
 }
