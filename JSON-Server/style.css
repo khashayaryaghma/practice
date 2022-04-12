@@ -31,3 +31,6 @@ input , textarea{
     border: 1px solid #ddd;
     font-family: sans-serif;
 }
+textarea{
+    min-height: 200px;
+}
