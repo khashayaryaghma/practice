@@ -2,7 +2,7 @@
     font-family: monospace;
 }
 body{
-    border-color: #eee;
+    background-color: #eee;
     color: #444;
     max-width: 960px;
     margin: 100px auto;
