@@ -1,0 +1,12 @@
+body{
+    border-color: #eee;
+    font-family: monospace;
+    color: #444;
+    max-width: 960px;
+    margin: 100px auto;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
