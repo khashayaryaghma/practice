@@ -127,3 +127,15 @@ nav{
     margin-top: 10px;
 }
 
+/* call to action */
+
+.cta{
+    margin: 80px 0;
+    background-image: linear-gradient(to right, #3f2321, transparent),url(images/banner-2.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 5%;
+    color: #fff;
+}
+
