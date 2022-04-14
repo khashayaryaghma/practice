@@ -138,4 +138,13 @@ nav{
     padding: 5%;
     color: #fff;
 }
+.cta h3{
+    font-size: 4vw;
+    line-height: 5.3vw;
+    font-weight: 500;
+}
+.cta p{
+    font-size: 18px;
+    margin: 10px 0;
+}
 
