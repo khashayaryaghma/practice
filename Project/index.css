@@ -82,3 +82,6 @@ nav{
 .location-input{
     flex: 1;
 }
+.search-bar form label{
+    font-weight: 600;
+}
