@@ -17,3 +17,7 @@ nav{
     justify-content: space-between;
     padding: 20px 7%;
 }
+.logo{
+    width: 140px;
+    cursor: pointer;
+}
