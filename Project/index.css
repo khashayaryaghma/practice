@@ -48,3 +48,10 @@ nav{
     text-align: center;
     padding-top: 22%;
 }
+.search-bar{
+    background-color: #fff;
+    width: 70%;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+}
