@@ -114,3 +114,10 @@ nav{
     text-align: center;
     color: #fff;
 }
+/* Trending Places */
+
+.Trending{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
