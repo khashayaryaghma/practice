@@ -21,3 +21,8 @@ nav{
     width: 140px;
     cursor: pointer;
 }
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
