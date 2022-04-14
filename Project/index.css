@@ -157,3 +157,12 @@ nav{
     display: inline-block;
 }
 
+/* Travellers Stories */
+
+.stories{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
+
