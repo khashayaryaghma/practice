@@ -55,3 +55,23 @@ nav{
     padding: 6px 10px 6px 30px;
     border-radius: 50px;
 }
+.search-bar form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.search-bar form input{
+    display: block;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+}
+.search-bar form button{
+    background-color: #ff5361;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
