@@ -68,6 +68,12 @@
     top: 3px;
     animation: wind 50s linear infinite reverse;
 }
+.cloud:nth-child(3){
+    top: 30px;
+    right: 5rem;
+    animation: wind 50s linear infinite reverse;
+}
+
 
 @keyframes drive{
     from{transform: translateX(-100px);}
